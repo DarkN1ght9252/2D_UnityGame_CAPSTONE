@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7fff6f98e05f8e4882d291b4845bea7, type: 3}
+  m_Name: Revolver
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 0}
+  isUnique: 1
+  item_Sprite_worldSpace: {fileID: 6830520734388192089, guid: 0888915576da89c4896cba9bc5ec4676, type: 3}
+  item_type: 1
+  item_amount: 1
+  name: Revolver
+  icon: {fileID: 6830520734388192089, guid: 0888915576da89c4896cba9bc5ec4676, type: 3}
+  isDefaultItem: 1
+  damage: 3
+  weaponCoolDown: 0.33
+  crouchedXYZ:
+  - 0.9
+  - 0.9
+  - -0.1
+  nonCrouchedXZ:
+  - 0.9
+  - 1.4
+  - -0.1
+  weapon_type: 2
+  bulletPreFab: {fileID: 2508838968364747752, guid: 87e13460d932d9a48b9a60b8752e5d6f, type: 3}

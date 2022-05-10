@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e51d48d1361a9ec41872a408e869efad, type: 3}
+  m_Name: Pipe
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 0}
+  isUnique: 1
+  item_Sprite_worldSpace: {fileID: -3202888118262039682, guid: 57250fc89ad7c254c9d44db7915d73cd, type: 3}
+  item_type: 1
+  item_amount: 1
+  name: Pipe
+  icon: {fileID: -3202888118262039682, guid: 57250fc89ad7c254c9d44db7915d73cd, type: 3}
+  isDefaultItem: 1
+  damage: 10
+  weaponCoolDown: 0.5
+  crouchedXYZ:
+  - 0.9
+  - 0.9
+  - -0.1
+  nonCrouchedXZ:
+  - 0.9
+  - 0.9
+  - -0.1
+  weapon_type: 1
+  Range: 1
